@@ -28,11 +28,11 @@ function prependDriver(name) {
 }
 
 function removeLastDriver() {
-  const members = drivers.slice(0, drivers.length - 1)
+  const members = drivers.slice(0, -1)
   return members
 }
 
 function removeFirstDriver() {
-  const members = drivers.slice(0, 1)
+  const members = drivers.slice(1)
   return members
 }
